@@ -1,0 +1,79 @@
+@font-face {
+  font-family: ThinkFont;
+  src: url('src/fonts/font.otf');
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcea8;
+  animation: backgroundanim 40s ease infinite;
+  overflow: hidden;
+  font-family: ThinkFont;
+  transition: transform 0.1s ease;
+}
+
+@keyframes backgroundanim {
+
+  0%,
+  100% {
+    background-color: #ffcea8;
+  }
+
+  10% {
+    background-color: #aefdf8;
+  }
+
+  20% {
+    background-color: #81e196;
+  }
+
+  30% {
+    background-color: #f682b8;
+  }
+
+  40% {
+    background-color: #d9ff96;
+  }
+
+  50% {
+    background-color: #a69ff4;
+  }
+
+  60% {
+    background-color: #a69ff4;
+  }
+
+  70% {
+    background-color: #d3a1a7;
+  }
+
+  80% {
+    background-color: #efe4a6;
+  }
+
+  90% {
+    background-color: #80e5f8;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+* {
+  user-select: none;
+}
